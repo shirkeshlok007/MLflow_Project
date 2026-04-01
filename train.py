@@ -17,7 +17,6 @@ y = data["y"]
 
 # Step 3: Start MLflow run
 with mlflow.start_run():
-
     # Train model
     model = LogisticRegression()
     model.fit(X, y)
